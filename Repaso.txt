@@ -1,0 +1,6 @@
+git clone -> Clona un repositorio
+git add <ruta> -> Agrega al stage un archivo.
+git commit -> Creamos una nueva version
+git push -> Sube nuestros commits al repositorio remote (gitHub)
+git pull -> trae los cambios en el repositorio remoto al repositorio local (Mi entorno de trabajo)
+git merge -> Fusiona o integra dos ramas.
