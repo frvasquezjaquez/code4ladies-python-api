@@ -20,4 +20,10 @@ async def root():
 async def root():
     return{
         "message":"Hoy es domingo"
+     }   
+
+@app.get("/hoy")
+async def root():
+    return {
+        "message": "Hoy es sabado"
     }
