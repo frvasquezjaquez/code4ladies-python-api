@@ -15,3 +15,9 @@ async def root():
         "email": "frvasquezjaquez@gmail.com",
         "clase": "DevOps" 
      }    
+
+@app.get("/manana")
+async def root():
+    return{
+        "message":"Hoy es domingo"
+    }
